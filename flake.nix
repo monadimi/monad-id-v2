@@ -14,6 +14,7 @@
         rustTools = with pkgs; [
           cargo
           rustc
+          llvmPackages.lld
           rustfmt
           clippy
         ];
